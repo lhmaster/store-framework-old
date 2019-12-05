@@ -6,10 +6,7 @@
      "blocks": [
         "search-result-layout.desktop",
         "search-result-layout.mobile"
-     ],
-     "props": {
-       "pagination": "show-more"
-     }
+     ]
   },
   "search-result-layout.desktop": {
     "children": [
@@ -21,7 +18,11 @@
       "search-content",
       "filter-navigator.v3",
       "search-fetch-more"
-    ]
+    ],
+     "props": {
+       "pagination": "show-more",
+       "preventRouteChange": true
+     }
   },
   "search-result-layout.mobile": {
     "children": [
