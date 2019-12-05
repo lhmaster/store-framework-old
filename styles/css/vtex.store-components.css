@@ -19,7 +19,7 @@
     border: transparent;
 }
 
-.infoCardContainer {
+.infoCardCallActionContainer {
     max-width: 1260px;
     margin: 0 auto;
 }
@@ -32,7 +32,7 @@
     background-color: #EDCFD1
 }
 
-.infoCardContainer--vintage .infoCardHeadline {
+.infoCardContainer--vintage--infoCardHeadline {
     color: #000000;
     font-weight: bold;
 } 
