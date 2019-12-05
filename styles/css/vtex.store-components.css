@@ -37,3 +37,8 @@
     color:black;
     font-weight: bold;
 }
+
+.vtexIframe--container {
+    width: 800px;
+    height:1000px;
+}
